@@ -7,7 +7,6 @@ export const TableCell = TiptapTableCell.extend({
   addNodeView() {
     return ReactNodeViewRenderer(TableCellNodeView, {
       as: "td",
-      className: "group",
     });
   },
 });
